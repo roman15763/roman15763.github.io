@@ -1,0 +1,171 @@
+@media (max-width: 1350px) {
+  .HACKATON_HACKATON {
+    letter-spacing: 40px;
+  }
+  .img_skins {
+    width: 250px;
+  }
+}
+@media (max-width: 1100px) {
+  .skins {
+    font-size: 50px;
+  }
+  .HACKATON_back {
+    font-size: 40px;
+  }
+  .all_ber {
+    height: 40px;
+  }
+  .button_block_1 {
+    display: block;
+  }
+  .skins_bloc_2 {
+    display: block;
+    width: auto;
+  }
+}
+@media (max-width: 1050px) {
+  .HACKATON_HACKATON {
+    letter-spacing: 30px;
+    font-size: 35px;
+  }
+  .HACKATON_back {
+    font-size: 35px;
+  }
+}
+@media (max-width: 780px) {
+  .HACKATON_HACKATON {
+    letter-spacing: 20px;
+    font-size: 30px;
+  }
+  .HACKATON_back {
+    font-size: 30px;
+  }
+  .HACKATON {
+    height: 70px;
+  }
+}
+@media (max-width: 650px) {
+  .HACKATON_HACKATON {
+    letter-spacing: 15px;
+    font-size: 30px;
+  }
+  .HACKATON_back {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 600px) {
+  .img_skins {
+    width: 200px;
+  }
+  .pump_buttons {
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+  }
+  .points {
+    font-size: 40px;
+    margin: 15px 0 0 0;
+  }
+}
+@media (max-width: 520px) {
+  .HACKATON_back {
+    font-size: 23px;
+    left: 5px;
+  }
+  .HACKATON_HACKATON {
+    letter-spacing: 10px;
+    font-size: 25px;
+  }
+  .HACKATON {
+    height: 60px;
+  }
+  .points {
+    font-size: 35px;
+  }
+}
+@media (max-width: 450px) {
+  .img_skins {
+    width: 130px;
+    margin: 10px 0 0 0;
+  }
+  .skins_purchase {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .skins_price {
+    font-size: 25px;
+  }
+  .all_ber {
+    height: 20px;
+  }
+  .skins {
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin: 5px 0 0 0;
+  }
+  .pump_buttons {
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .HACKATON_HACKATON {
+    letter-spacing: 5px;
+    font-size: 25px;
+  }
+  .HACKATON_back{
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+    .HACKATON_HACKATON {
+      letter-spacing: 1px;
+    }
+    .HACKATON_back{
+        font-size: 15px;
+      }
+      .HACKATON{
+        height: 50px;
+      }
+  }
+  @media (max-width: 330px) {
+    .HACKATON_HACKATON {
+        font-size: 20px;
+      }
+      .HACKATON_back{
+        font-size: 14px; 
+        padding: 6px;
+      }
+      .HACKATON{
+        height: 45px;
+      }
+      .points{
+        font-size: 25px;
+      }.extra_points{
+        font-size: 25px;
+      }
+      .img_skins {
+        width: 120px;
+        margin: 5px 0 0 0;
+      }
+      .pump_buttons {
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+      }
+      .skins {
+        font-size: 30px;
+        letter-spacing: 4px;
+      }
+      .skins_purchase {
+        font-size: 15px;
+        margin: 5px 10px 10px 10px ;
+      }
+      .skins_price {
+        font-size: 20px;
+        margin: 5px;
+      }
+  }

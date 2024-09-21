@@ -1,0 +1,230 @@
+/* Обнулення */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*------------------------------------------------------------------*/
+body {
+  background-color: #000;
+  color: #00ff00;
+
+  width: 100%;
+  height: 100%;
+  width: 100vw; /* Ширина в 100% від ширини вікна */
+  height: 100vh; /* Висота в 100% від висоти вікна */
+
+  user-select: none; /* Забороняє виділення тексту */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  border-radius: 17px;
+  background-image: url("/HACKATON/CODE_HACKATON/HACKATON_IMG/10.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%; /* Задаємо висоту для тега html і body */
+  margin: 0; /* Впевніться, що немає зовнішніх відступів */
+}
+
+.boost_click {
+  padding: 7px;
+}
+
+.HACKATON {
+  width: 100%;
+  height: 100px;
+  background-color: #313131;
+  margin: 0 auto;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 45px;
+  color: #00ff00;
+  border: 2px solid #e6e6e6;
+  letter-spacing: 60px;
+  transition: color 1s ease;
+  position: relative; /* Для абсолютного позиціонування дочірніх елементів */
+}
+
+.HACKATON_back {
+  color: #ff0000;
+  position: absolute;
+  left: 10px; /* Прижати до лівого краю */
+  top: 50%;
+  transform: translateY(-50%); /* Вирівняти вертикально */
+  padding: 10px;
+  border-radius: 17px;
+  border: 2px solid #e6e6e6;
+  letter-spacing: 5px;
+  background-color: #000;
+}
+.HACKATON_back:hover {
+  border: 2px solid #ff0000;
+  color: #00ff00;
+}
+.HACKATON_title {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 45px; /* Розмір шрифту для заголовка */
+  color: #00ff00;
+  letter-spacing: 60px; /* Простір між літерами */
+  transition: color 1s ease;
+}
+.points {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin: 30px 0 0 0;
+  transition: color 1s ease;
+}
+.extra_points {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin: 10px 0 0 0;
+  transition: color 1s ease;
+}
+.button_block {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+.button_block_1 {
+  margin: 0 auto 0 auto;
+  display: flex;
+  width: 100vw;
+}
+.pump_buttons {
+  width: 250px;
+  height: 100px;
+  background-color: #313131;
+  margin: 0 auto 0 auto;
+  border-radius: 17px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  color: #00ff00;
+  border: 2px solid #e6e6e6;
+  transition: color 1s ease;
+}
+
+.pump_buttons:hover {
+  border: 2px solid #ff0000;
+}
+.skins {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin: 20px 0 0 0;
+  letter-spacing: 20px;
+}
+.skins_bloc {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+.skins_bloc_1 {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border: 2px solid #e6e6e6;
+  border-radius: 17px;
+  background-color: #313131;
+}
+.img_skins {
+  width: 300px;
+}
+.skins_price {
+  font-size: 35px;
+  margin: 10px 0 0 0;
+}
+.skins_purchase {
+  background-color: #313131;
+  border-radius: 8px;
+  font-size: 35px;
+  color: #00ff00;
+  border: 2px solid #e6e6e6;
+  letter-spacing: 5px;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
+.skins_purchase:hover {
+  border: 2px solid #00ff00;
+  color: #ff0000;
+}
+.skins_bloc_2 {
+  margin: 0 auto 0 auto;
+  display: flex;
+  width: 100vw;
+}
